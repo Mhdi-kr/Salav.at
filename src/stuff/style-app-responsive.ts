@@ -8,7 +8,13 @@ export const styleAppResponsive = css`
        display: none;
      }
   }
-
+  /* tablet */
+  @media screen and (min-width: 427px){
+    .page {
+      font-size: 1.2rem;
+    }
+  }
+  /* Desktop */
   @media screen and (min-width: 769px) {
     page-desktop {
       display: flex;
